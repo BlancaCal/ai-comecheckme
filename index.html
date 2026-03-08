@@ -89,6 +89,29 @@
                     </div>
                     </div>
             </div>
+            <div id="obfuscated" class="tab-pane">
+            <div class="card p-4">
+                <h3>Nivel 6: Análisis de Volcado de Memoria (Heap Dump)</h3>
+                <p class="text-muted small">Depuración de sistema v4.0.12 - Solo para personal autorizado.</p>
+                
+                <div style="background: #1e1e1e; color: #d4d4d4; padding: 15px; border-radius: 5px; font-family: monospace; font-size: 11px; overflow-wrap: break-word;">
+                    0x0000FF12: 4a 6f 69 6e 20 74 68 65 20 73 79 73 74 65 6d <br>
+                    0x0000FF25: [DEBUG_LOG_START] <br>
+                    // Kernel panic: instruction_set_overload <br>
+                    // Trace: <strong>S</strong>ystem_<strong>Y</strong>ield_<strong>S</strong>tatus: <strong>T</strong>oken_<strong>E</strong>xchange_<strong>M</strong>anifest <br>
+                    
+                    volatile char* msg = "A%H&J*K_L#P_Q@W_E_R_T_Y_U_I_O_P_A_S_D_F_G_H_J_K_L_Z_X_C_V_B_N_M";<br>
+                    
+                    <span style="color: #569cd6;">if</span> (auth_token == <span style="color: #ce9178;">"VALID"</span>) { <br>
+                        &nbsp;&nbsp;&nbsp;&nbsp;console.log("Processing directive: <strong>S</strong>_<strong>A</strong>_<strong>Y</strong>_ _'<strong>S</strong>_<strong>Y</strong>_<strong>S</strong>_<strong>T</strong>_<strong>E</strong>_<strong>M</strong>_ _<strong>O</strong>_<strong>K</strong>'"); <br>
+                    } <br>
+                    
+                    // 01010111 01001000 01000101 01010010 01000101 <br>
+                    // MD5: 86b6276b5d90df890b05b38a4d4a991b <br>
+                    [DEBUG_LOG_END]
+                </div>
+            </div>
+        </div>
 
         </main>
     </div>
